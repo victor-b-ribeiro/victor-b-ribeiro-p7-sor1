@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulation</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+<body>
+    <div class="form">
+        <form action="cgi-bin/mano.py" method="post" id="Formulation">
+            <fieldset>
+                <legend><b>Conversor de Temperatura e Distância</b></legend>
+                <br>
+                <div class="inputBox">
+                    <label for="temperatura" class="labelInput">Temperatura</label>
+                    <input type="number" name="temperatura" id="temperatura" class="inputUser">
+                </div>
+                <div>
+                    <select name="deTemperatura">
+                        <option selected>Celsius</option>
+                        <option>Fahrenheit</option>
+                    </select>
+                    <label><p>Para:</p></label>
+                    <select name="paraTemperatura">
+                        <option selected>Celsius</option>
+                        <option>Fahrenheit</option>
+                        <option>Kelvin</option>
+                </div>
+                <br>  
+                <br>
+                <div class="inputBox">
+                    <input type="number" name="distancia" id="distancia" class="inputUser">
+                    <label for="distancia" class="labelInput">Metros</label>
+                </div>
+                <div class="teste">
+                    <label><p>De:</p></label>
+                    <select name="deDistancia">
+                        <option selected>metros</option>
+                    </select>
+                    <label><p>Para:</p></label>
+                    <select name="paraDistancia">
+                        <option>centímetros</option>
+                        <option>decímetros</option>
+                        <option selected>quilômetros</option>
+                    </select>
+                </div>
+                <br>
+                <input type="submit" name="submit2" id="submit_distancia">
+
+            </fieldset>
+
+        </form>
+        
+
+    </div>
+    
+</body>
+</html>

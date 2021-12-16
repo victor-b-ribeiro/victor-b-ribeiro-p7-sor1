@@ -1,0 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    background-image: linear-gradient(rgb(122,7,189), rgb(122,7,189))
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    color: white;
+}
+fieldset{
+    border: none;
+}
+legend{
+    border: 1px solid rgb(104, 6, 214);
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    width: 900px;
+    color: black;
+}
+#submit_distancia{
+    background-color: rgb(255, 153, 0);
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#form_distancia{
+    float: left;
+}
+.celsius{
+    margin-bottom:30px;
+}
+
+
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
